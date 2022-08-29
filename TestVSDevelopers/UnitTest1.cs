@@ -29,6 +29,8 @@ namespace TestVSDevelopers
         //Input: [2, 3, 4, 1, 5], k=2 
         //Output: 7
         //Explanation: Subarray with maximum sum is [3, 4]. 
+
+        //Time Complexity : O(N), Space complexity: The algorithm runs in constant space O(1)        
         public void TestfindMaxSumOfSubArray()
         {
             System.Console.WriteLine($"Maximum sum of a subarray of size K: {MaxSumOfSubArray.findMaxSumOfSubArray(3, new int[] { 2, 1, 5, 1, 3, 2 })}");
